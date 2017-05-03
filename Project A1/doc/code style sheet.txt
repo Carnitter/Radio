@@ -1,0 +1,83 @@
+//	file declaration, always on top
+/*	NAME: give name of the c-file
+	DESCRIPTION: short summary of the function of the c-file.
+	AUTHORS: group A1
+ */
+ 
+ //	function declaration
+ /*
+	NAME: give name of the function
+	DESCRIPTION: give a short summary of the function.
+	PARAMS: give parameter names and types 
+	RETURNS: give return value and indication of what it is.
+ */
+ 
+/*	Naming*/
+
+//  filenames
+	name based on what the file is used for, lowercase
+	example: states.c
+	
+//	function names
+	use underscores, lowercase
+	example: show_gui()
+	
+//	macros
+	full caps, underscores
+	example: MAX_BUFFER_SIZE
+	
+//	pointers
+	always ends with _ptr, lowercase
+	int 	*value_ptr, *value1_ptr;
+
+//	normal variables
+	multipe words bound with underscores.
+	char	person_name;
+	int 	big_number;
+	
+//	struct
+	always typedef, first letter always capital
+	typedef struct
+	{
+		int age;
+	}Person;
+	
+//	curly brackets placement
+	curly brackets always under a statement
+	
+//	if-statement
+	if(statement)
+	{
+		code
+	}
+	
+//	for-loop
+	for(;;)
+	{
+		code
+	}
+	
+//	while(statement)
+	{
+		code
+	}
+	
+	//always whitespace between break and case.
+//	switch(int)
+	{
+		case 1:
+		break;
+		
+		case 2:
+		break;
+	}
+	
+// Commit message:
+
+	Language: English
+	Clear description off what is add or fixed in the commit.
+	
+
+	
+
+	

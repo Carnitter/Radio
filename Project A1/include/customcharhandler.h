@@ -1,0 +1,11 @@
+extern void push_custom_glyph_to_ram(char *glyph, int length);
+extern void alarm_task_daily_chars(void);
+extern void alarm_task_spec_chars(void);
+extern void alarm_task_week_chars(void);
+extern void stream_task_chars(void);
+extern void default_custom_chars(void);
+extern void LcdCustomChar(char number);
+extern void weather_custom_chars(void);
+extern void rain_chars(void);
+extern void sun_chars(void);
+extern void memory_game_chars(void);
